@@ -6,7 +6,7 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import icon from "leaflet/dist/images/marker-icon.png";
 import iconRetina from "leaflet/dist/images/marker-icon-2x.png";
-import iconShadow from "leaflet/dist/images/marker-shadow.png";
+
 import {coordinates} from "../coordinates/coordinate"
 import car from "../images/car.png"
 import start from "../images/start.png"
@@ -17,7 +17,6 @@ import { useEffect } from 'react';
 const mainIcon = L.icon({
     iconUrl: icon,
     iconRetinaUrl: iconRetina,
-    shadowUrl: iconShadow,
     iconSize: [25, 41],
     iconAnchor: [12, 41],
   });
